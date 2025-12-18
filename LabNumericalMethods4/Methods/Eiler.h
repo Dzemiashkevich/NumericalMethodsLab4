@@ -7,7 +7,7 @@
 #include <fstream>
 #include <functional>
 #include <vector>
-#include "../../NumericalMethodsLab2.1/Methods/Newton.h"
+#include "../../../NumericalMethodsLab2.1/Methods/Newton.h"
 template <typename T>
 class EilerEq {
 

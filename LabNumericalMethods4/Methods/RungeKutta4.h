@@ -59,7 +59,7 @@ public:
         answers.push_back(res);
             for (T t = this->t0; t < this->tn; t += this->tau) {
                 res=stepRK4( res, this->tau);
-                answers.pushback(res);
+                answers.push_back(res);
             }
             return answers;
     }
