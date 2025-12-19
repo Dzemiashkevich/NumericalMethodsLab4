@@ -15,7 +15,7 @@ int main() {
 
     std::pair<double, std::vector<double>> init {std::make_pair(0, std::vector<double>{0,1})};
 
-    double tau0=1e-4;
+    double tau0=1e-1;
     double taurk4=1e-1;
     double t0=0,tn=20;
 
